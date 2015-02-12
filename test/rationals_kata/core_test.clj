@@ -5,8 +5,6 @@
 
 (facts
  "about midje"
-
   (fact
    "canary in midje"
-
    (true) => true))
