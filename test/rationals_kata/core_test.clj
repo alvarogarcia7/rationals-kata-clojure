@@ -26,9 +26,13 @@
   "zero plus non-zero"
   (add (r 0) (r 1) ) => (r 1))
 
-   (fact
+  (fact
   "non-zero plus fraction"
   (add (r 1) (r 1 2) ) => (r 3 2))
+
+  (fact
+  "add two halves"
+  (add (r 1 2) (r 1 2) ) => (r 1))
 )
 
 (add (r 5) (r 8 2))
