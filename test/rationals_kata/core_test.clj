@@ -19,6 +19,11 @@
  "about rational addition"
  (fact
   "zero plus zero"
-  (add (r 0) (r 0) ) => (r 0) ))
+  (add (r 0) (r 0) ) => (r 0))
+
+  (fact
+  "zero plus non-zero"
+  (add (r 0) (r 1) ) => (r 1))
+)
 
 
