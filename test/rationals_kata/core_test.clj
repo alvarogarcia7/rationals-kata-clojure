@@ -9,13 +9,6 @@
    "canary in midje"
    (true) => true))
 
-(defn add [a b]
-  (+ a b))
-
-(defn r
-  ([numerator-] (r numerator- 1))
-  ([numerator- denominator-] (/ numerator- denominator-)))
-
 (facts
  "about rational addition"
  (fact
