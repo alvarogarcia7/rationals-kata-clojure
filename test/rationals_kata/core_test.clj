@@ -10,7 +10,7 @@
    (true) => true))
 
 (defn add [a b]
-  a)
+  (+ a b))
 
 (defn r [numerator-]
   (/ numerator- 1))
