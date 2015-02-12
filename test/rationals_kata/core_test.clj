@@ -1,7 +1,16 @@
 (ns rationals-kata.core-test
   (:require [clojure.test :refer :all]
-            [rationals-kata.core :refer :all]))
+            [rationals-kata.core :refer :all])
+  (:use [midje.sweet]))
 
-(deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+(deftest canary-test
+  (testing "the environment"
+    (is (= 1 1))))
+
+(facts
+ "about midje"
+
+  (fact
+   "canary in midje"
+
+   (true) => true))
