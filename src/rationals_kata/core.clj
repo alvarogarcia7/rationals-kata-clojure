@@ -2,6 +2,7 @@
   (:gen-class))
 
 (defn add [a b]
+  ; we're relying on the language fraction implementation - for now it is good enough
   (+ a b))
 
 (defn r
