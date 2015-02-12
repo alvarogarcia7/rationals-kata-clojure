@@ -3,10 +3,6 @@
             [rationals-kata.core :refer :all])
   (:use [midje.sweet]))
 
-(deftest canary-test
-  (testing "the environment"
-    (is (= 1 1))))
-
 (facts
  "about midje"
 
