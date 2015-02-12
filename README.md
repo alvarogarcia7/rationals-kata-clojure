@@ -19,3 +19,8 @@ Constraints:
 
 * Rationals must be immutable after creation.
 * They have to be stored in reduced form, e.g., 2/4 would be stored as 1/2, check [greatest common divisor computation](http://en.wikipedia.org/wiki/Euclidean_algorithm#Implementations)
+
+# Technical help
+## Light Table
+go to project.clj, control+space (in mac), choose instarepl, wait for to finish connecting. It might fail
+go to test/\*clj and command+enter to execute expressions / facts
