@@ -12,8 +12,9 @@
 (defn add [a b]
   (+ a b))
 
-(defn r [numerator-]
-  (/ numerator- 1))
+(defn r
+  ([numerator-] (r numerator- 1))
+  ([numerator- denominator-] (/ numerator- denominator-)))
 
 (facts
  "about rational addition"
@@ -30,5 +31,5 @@
   (add (r 1) (r 1 2) ) => (r 3 2))
 )
 
-; (add (r 5) (r 8 2))
+(add (r 5) (r 8 2))
 
