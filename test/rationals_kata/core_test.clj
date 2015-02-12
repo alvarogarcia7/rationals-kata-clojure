@@ -8,3 +8,9 @@
   (fact
    "canary in midje"
    (true) => true))
+
+(facts
+ "about rational addition"
+ (fact
+  "zero plus zero"
+  (add (r 0) (r 0) )))
